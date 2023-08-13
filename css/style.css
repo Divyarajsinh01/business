@@ -1,0 +1,517 @@
+#nav_top {
+    margin-left: 50% !important;
+}
+
+#nav_top a {
+    font-size: 17px;
+    padding: 0 20px 0 20px;
+    color: black;
+}
+
+.active {
+    color: #c29c12f4 !important;
+}
+
+#nav_top a:hover {
+    color: #c29c12f4;
+}
+
+@media only screen and (max-width:1300px) {
+    #nav_top {
+        margin-left: 40% !important;
+    }
+
+}
+
+@media only screen and (max-width:1100px) {
+    #nav_top {
+        margin-left: 23% !important;
+    }
+}
+
+@media only screen and (max-width:500px) {
+    #nav_top {
+        margin-top: 10px;
+        margin-left: 0 !important;
+    }
+}
+
+#content {
+    padding-top: 10%;
+}
+
+
+#content::after {
+    margin-top: -352px;
+    z-index: -1;
+    /* bottom: 400px; */
+    position: relative;
+    height: 130vh;
+    content: "";
+    background: url(../images/biz3-slider-bg.jpg) no-repeat center/cover;
+    width: 100%;
+    background-position: top;
+}
+
+#content-h4 {
+    color: #b3b0b0be;
+    margin-bottom: 20px;
+}
+
+#content-h1 {
+    margin-bottom: 20px;
+}
+
+#btn1 {
+    background-color: #ec9616bd;
+    color: #f5f5f5;
+    width: 100%;
+    max-width: 250Px;
+}
+
+@media only screen and (max-width:1100px) {
+    #content::after {
+        margin-top: -295px;
+        /* bottom: 295px; */
+        height: 100vh;
+    }
+}
+
+@media only screen and (max-width:500px) {
+    #content::after {
+        margin-bottom: -295px;
+        margin-top: 58px;
+        bottom: 295px;
+        height: 67vh;
+    }
+
+    #content-h4 {
+        width: 100%;
+        margin-bottom: 5px;
+    }
+
+    #content-h1 {
+        font-size: 23px;
+        margin-bottom: 20px;
+    }
+
+    #btn1 {
+        margin-bottom: 61px;
+        max-width: 150px;
+    }
+}
+
+#mycontent {
+    padding-bottom: 10% !important;
+    background-color: #b7b7b736;
+    border-bottom: 2px solid #00000033;
+}
+
+#content1 {
+    padding-top: 5% !important;
+}
+
+.content2 {
+    padding: 5% 0 5% 0;
+    margin-left: 30px;
+    background-color: #ffffff;
+    border-bottom: 3px solid #de9f00dd;
+}
+
+.contentimg {
+    width: 100%;
+    max-width: 50px;
+    height: 50px;
+    margin-bottom: 50px;
+}
+
+.contentimg-h1 {
+    margin-bottom: 20px;
+}
+
+@media only screen and (max-width:500px) {
+    #mycontent {
+        padding-bottom: 20% !important;
+    }
+
+    #content1-h1 {
+        padding-bottom: 20px;
+    }
+
+    #content1-p {
+        padding-bottom: 20px;
+    }
+
+    .content2 {
+        margin: 20px 2px 20px 2px;
+    }
+}
+
+#bt {
+    border-bottom: 2px solid #00000033;
+    ;
+}
+
+#bt p {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+#btn2 {
+    color: #e1a715df;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+@media only screen and (max-width:500px) {
+    #bt p {
+        font-size: 15px;
+    }
+}
+
+#center {
+    margin-top: 70px;
+}
+
+#center p {
+    color: #e1a715df;
+    padding-bottom: 10px;
+}
+
+#center h1 {
+    margin-bottom: 20px;
+}
+
+.icon {
+    font-size: 30px;
+    padding-right: 20px;
+}
+
+#about {
+    margin-top: 20px;
+    padding-bottom: 8%;
+}
+
+#about::after {
+    margin-top: -1251px;
+    content: "";
+    background: url(../images/biz-home-bg.png) no-repeat center/cover;
+    background-position: center;
+    width: 100%;
+    position: relative;
+}
+
+#about img {
+    margin-left: 80px;
+}
+
+#aboutdiv {
+    margin-left: 80px;
+    margin-top: 20px;
+}
+
+@media only screen and (max-width:1300px) {
+    #about::after {
+        margin-top: -1100px;
+    }
+
+}
+
+@media only screen and (max-width:1100px) {
+    #about::after {
+        margin-top: -1010px;
+    }
+}
+
+@media only screen and (max-width:500px) {
+    #center h1 {
+        font-size: 16px;
+    }
+
+    #about img {
+        margin-left: 0px;
+
+    }
+
+    #aboutdiv {
+        margin-left: 0%;
+    }
+
+    #about::after {
+        margin-top: -415px;
+    }
+}
+
+#scrollimg {
+    position: relative;
+    height: 772px;
+    /* max-width: 692px; */
+    width: 100%;
+    margin-left: -12px;
+}
+
+#scroll-desc {
+    padding: 100px 0 0 75px;
+    max-width: 771px;
+    width: 100%;
+    margin-left: -24px;
+    background: #5d5d5de3;
+}
+
+#scroll-desc h6 {
+    color: #f5f5f5;
+    padding-bottom: 20px;
+}
+
+#scroll-desc h1 {
+    padding-bottom: 20px;
+    font-size: 53px;
+    color: #ffa633c2;
+}
+
+.icon-scroll {
+    color: #ffa633c2;
+    font-size: 94px;
+}
+
+.scroll-div {
+    padding-top: 10px;
+}
+
+.scroll-div h4 {
+    color: #f5f5f5;
+    padding-bottom: 10px;
+}
+
+.scroll-div p {
+    color: #f5f5f5;
+}
+
+@media only screen and (max-width:1300px) {
+    #scroll-desc {
+        width: 100%;
+        max-width: 664px;
+    }
+}
+
+@media only screen and (max-width:1100px) {
+
+    /* #scrollimg{
+        height: 500px;
+    } */
+    #scroll-desc {
+        width: 100%;
+        max-width: 536px;
+        padding-left: 50px;
+    }
+
+    #scroll-desc h1 {
+        font-size: 45px;
+    }
+
+    .icon-scroll {
+        font-size: 80px;
+    }
+
+    .scroll-div h4 {
+        font-size: 24px;
+    }
+
+    .scroll-div p {
+        font-size: 14px;
+    }
+}
+
+@media only screen and (max-width:500px) {
+    #scrollimg {
+        height: 84vh;
+    }
+
+    #scroll-desc {
+        width: 100%;
+        max-width: 384px;
+    }
+
+    #scroll-desc h1 {
+        font-size: 30px;
+    }
+
+    .icon-scroll {
+        font-size: 50px;
+    }
+
+    .scroll-div h4 {
+        font-size: 20px;
+    }
+
+    .scroll-div p {
+        font-size: 13px;
+    }
+}
+
+#quate-img {
+    margin-top: 10%;
+    padding-bottom: 5%;
+}
+
+.content3 {
+    margin-top: 5%;
+    margin-bottom: 6%;
+}
+
+.content3 h5 {
+    color: #000000;
+}
+
+.content3 p {
+    font-size: 40px;
+}
+
+/* .radio1 {
+    height: 14px !important;
+} */
+
+.carousel-indicators [data-bs-target]{
+    height: 14px;
+    width: 14px;
+    border-color: yellow;
+}
+
+.text {
+    font-size: 17px !important;
+    color: #000000;
+}
+
+@media only screen and (max-width: 500px) {
+
+    #quate-img {
+        margin-top: 20%;
+    }
+
+    .content3 {
+        margin-top: 5%;
+        margin-bottom: 12%;
+    }
+
+    .content3 h5 {
+        font-size: 17px;
+    }
+}
+
+#section-img {
+    width: 100%;
+    margin-top: 5%;
+}
+
+.icon1 {
+    color: #c97b0fdb;
+    font-size: 16px;
+    padding: 12px;
+    background-color: #bbbbbb;
+}
+
+@media only screen and (max-width: 1100px) {
+    #last {
+        font-size: 14px;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    #last {
+        font-size: 12px;
+        margin-top: 10px;
+        margin-bottom: 30px;
+    }
+}
+
+.footer {
+    background-color: #e0e0e0eb;
+    padding-top: 10%;
+    /* padding-bottom: 10%; */
+}
+
+.footer h6 {
+    margin-bottom: 20px;
+    color: #7f7a7ab5;
+}
+
+.footer p {
+    color: #4c4b4bb5;
+}
+
+.footer a {
+    color: #f0b850;
+}
+
+#copy {
+    margin-top: 5%;
+    padding-left: 7%;
+}
+
+#copy i {
+    margin-left: 16px;
+}
+
+@media only screen and (max-width: 1100px) {
+    #copy i {
+        margin-left: 12px;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .footer img {
+        margin-top: 50px;
+        margin-bottom: 70px;
+    }
+
+    #address {
+        margin-top: 40px;
+        margin-bottom: 20px;
+    }
+
+    #copy {
+        padding: 0;
+    }
+
+    #copy p {
+        padding-bottom: 22px;
+        padding-left: 0;
+    }
+}
+
+#offer {
+    background-color: #0000000f;
+}
+
+#offerbg {
+    background: url(../images/biz-home-bg.png) no-repeat top;
+    width: 100%;
+}
+
+@media only screen and (max-width:500px) {
+    .offer-desc {
+        margin-top: 20px;
+    }
+}
+
+@media only screen and (max-width: 1100px) {
+    .offer-desc {
+        padding-top: 50px;
+        padding-left: 25px;
+    }
+}
+
+#form h1 {
+    margin-bottom: 20px;
+}
+
+@media only screen and (max-width:500px) {
+    #form {
+        margin-left: -38px;
+    }
+
+    #form h1 {
+        margin-bottom: 30px;
+    }
+}
+
